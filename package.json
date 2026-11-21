@@ -1,0 +1,33 @@
+{
+  "name": "@anistack72/web-audit-workbench",
+  "version": "0.1.0",
+  "description": "Bounded same-origin web auditing with security checks and ZAP/Nuclei report adapters.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "web-audit-workbench": "./cli.mjs"
+  },
+  "exports": "./index.mjs",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check cli.mjs && node --check index.mjs",
+    "demo": "node demo.mjs"
+  },
+  "files": [
+    "cli.mjs",
+    "index.mjs",
+    "support.mjs",
+    "README.md",
+    "LICENSE",
+    "header.png",
+    "demo.mjs"
+  ],
+  "license": "MIT",
+  "author": "Anis Mosbah",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anistack72/web-audit-workbench.git"
+  }
+}
