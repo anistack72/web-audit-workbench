@@ -22,7 +22,9 @@
     "README.md",
     "LICENSE",
     "header.png",
-    "demo.mjs"
+    "demo.mjs",
+    "docs/try-it.md",
+    "CHANGELOG.md"
   ],
   "license": "MIT",
   "author": "Anis Mosbah",
