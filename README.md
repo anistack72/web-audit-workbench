@@ -86,3 +86,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for changes and [SECURITY.md](SECURITY.md
 ---
 
 Built by **Anis Mosbah** · [Professional enquiries](mailto:contact@anis-mosbah.dev) · [MIT license](LICENSE)
+
+## Reproducible walkthrough and releases
+
+Follow the [synthetic-fixture walkthrough](docs/try-it.md) before using real inputs. The terminal, JSON and HTML paths are covered by subprocess tests. See [CHANGELOG.md](CHANGELOG.md) for release contents.
+
+[GitHub releases](https://github.com/anistack72/web-audit-workbench/releases) distribute verified source tarballs and `SHA256SUMS.txt`; this package is not published to npm. Release publication runs automatically after the complete Node 22/24 matrix succeeds on Linux, macOS and Windows. Published versions are preserved. Daily scheduled tests create no commits or releases.
